@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+body{
+    background-color:hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+.text{
+    height: 180px;
+    width: 440px;
+    margin-top: 40px;
+    text-indent: center;
+}
+.advice{
+
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+    background-color:hsl(217, 19%, 24%);
+    border-radius: 10px;
+    position: relative;
+}
+.patterndivider{
+    margin-top: 100px;
+}
+.pattern2{
+    display: none;
+}
+p{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    text-indent: center;
+}
+h2{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    text-indent: center;
+    word-wrap: break-word;
+}
+#generatebtn{
+    margin-left: -245px;
+    margin-top:190px;
+    background-color: hsl(150, 100%, 66%);
+    border: 0px;
+    border-color: hsl(150, 100%, 66%);
+    padding: 15px;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.dice:hover{ 
+    box-shadow: 0 0 50px 15px #55e048;
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color:hsl(218, 23%, 16%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .advice{
+        width: 340px;
+        height: 300px;
+    }
+    .text{
+        width: 340px;
+    }
+    .patterndivider{
+        display: none;
+    }
+    .pattern2{
+    display: flex;
+    margin-top: 155px;
+    margin-left:20px;
+    }
+    #generatebtn{
+        margin-top: 70px;
+        margin-left: -30px;
+    }
+    .text{
+        height: 100px;
+        margin-top: 40px;
+    }
+}
